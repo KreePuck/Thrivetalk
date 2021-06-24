@@ -208,3 +208,28 @@ body {
     top: 13px;
     left: -33px;
 }
+
+.info {
+    height: 480px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+
+.info__block {
+    padding: 0 77px 0 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__heading {
+    margin-bottom: 28px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.info__description {
+    opacity: 50%;
+    font-size: 16px;
+}

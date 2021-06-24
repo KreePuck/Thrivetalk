@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url('./../fonts/9215.ttf') format('truetype');
+}
+
 *,
 *::after,
 *::before{
@@ -6,7 +11,49 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #22356F;
+    font-family: 'Larsseit';
+}
+
 .header {
     height: 840px;
     background-color: #F4F9E2;
+}
+
+.why {
+    height: 605px;
+    display: grid;
+    grid-template-columns: 1fr 525px;
+}
+
+.why__article {
+    background-color: #62D0DF;
+    color: #fff;
+    padding: 0 180px 0;
+}
+
+.why__main-heading {
+    margin: 150px 0 75px 0;
+    font-size: 36px;
+}
+
+.why__heading {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.why__description {
+    font-size: 20px;
+}
+
+.why__inner {
+    width: 100%;
+    height: 100%;
+    flex: 0 1;
+}
+
+.why__photo {
+    width: 100%;
+    height: 100%;
 }

@@ -12,6 +12,7 @@
 }
 
 body {
+    background-color: #fff;
     color: #22356F;
     font-family: 'Larsseit';
 }
@@ -56,4 +57,89 @@ body {
 .why__photo {
     width: 100%;
     height: 100%;
+}
+
+.about {
+    height: 840px;
+    position: relative;
+}
+
+.about__first-heading {
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    top: 5px;
+    left: 105px;
+}
+
+.about__description {
+    width: 592px;
+    margin: 150px auto 76px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.about__second-heading {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    opacity: 50%;
+    margin-bottom:24px;
+}
+
+.about__warapper {
+    height: 360px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.about__block {
+    position: relative;
+}
+
+.about__block::before {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 255px;
+    height: 1px;
+    top: 72px;
+    left: 52px;
+}
+
+.about__block:first-child {
+    background-color: #FFE2DE;
+}
+
+.about__block:nth-child(2) {
+    background-color: #C4E769;
+}
+
+.about__block:nth-child(3) {
+    background-color: #62D0DF;
+}
+
+.about__block:last-child {
+    background-color: #0052C1;
+}
+
+.about__option {
+    position: absolute;
+    top: 95px;
+    left: 78px;
+}
+
+.about__option::before {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    content: '';
+    background-color: #E9B730;
+    border-radius: 50%;
+    top: 10px;
+    left: -25px;
 }

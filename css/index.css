@@ -233,3 +233,39 @@ body {
     opacity: 50%;
     font-size: 16px;
 }
+
+.also {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 480px 1fr;
+}
+
+.also__article {
+    padding-left: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.also__heading {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.also__description {
+    width: 676px;
+    font-size: 36px;
+    line-height: 53px;
+    font-weight: 600;
+}
+
+.also__stressed-phrase {
+    color: #6cd3e1;
+}
+
+.also__link {
+    color: #FAB63E;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}

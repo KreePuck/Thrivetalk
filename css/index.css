@@ -269,3 +269,56 @@ body {
     font-weight: 600;
     letter-spacing: 0.1em;
 }
+
+.contact {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 480px;
+}
+
+.contact__article {
+    background-color: #22356F;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0 200px 0 180px;
+}
+
+.contact__heading {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact__inner {
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact__big-heading {
+    font-size: 64px;
+}
+
+.contact__description {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.contact__link {
+    color: #62D0DF;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.contact__img {
+    height: 100%;
+    width: 100%;
+}
+
+.contact__photo {
+    height: 100%;
+    width: 100%;
+}

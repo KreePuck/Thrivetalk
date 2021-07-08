@@ -322,3 +322,62 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.footer {
+    height: 380px;
+    display: grid;
+    grid-template-columns: 570px 1fr;
+}
+
+.footer__photo {
+    height: 100%;
+    width: 100%;
+}
+
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__heading {
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+
+.footer__option {
+    width: 200px;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 50%;
+    flex-basis: 115px;
+}
+
+.footer__link{
+    text-decoration: none;
+}
+
+.footer__link:visited {
+    color: #006DFF;
+}
+
+.footer__footer {
+    text-align: center;
+    height: 80px;
+    line-height: 5;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #62D0DF;
+    color: #fff;
+}
+
+.footer__blank {
+    background-color: #62D0DF;
+}

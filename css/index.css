@@ -17,9 +17,97 @@ body {
     font-family: 'Larsseit';
 }
 
+.btn {
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+
 .header {
     height: 840px;
     background-color: #F4F9E2;
+    display: grid;
+    grid-template-columns: 1120px 1fr;
+}
+
+.header__main {
+    padding: 0 280px 0 180px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 170px;
+}
+
+.header__main-link {
+    font-size: 24px;
+    color: #62D0DF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header__main-link {
+
+}
+
+.header__menu {
+
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.header__menu-option {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.header__menu-link {
+    color: #22356F;
+    text-decoration: none;
+}
+
+.header__info {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+.header__heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 60px;
+}
+
+.header__text {
+    font-size: 24px;
+    line-height: 43px;
+    margin-bottom: 60px;
+}
+
+.header__info-btn {
+    margin-right: 35px;
+    font-size: 16px;
+}
+
+.header__beauty {
+    background-color: #fff;
+}
+
+.header__contact {
+    margin: 25px 0 0 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    background-color: #62D0DF;
+    color: #fff;
 }
 
 .why {
